@@ -1,15 +1,6 @@
-# JoshTalksApp (Generated)
-
-This is a generated Android Studio project implementing the Josh Talks Android Intern assignment.
-I recreated the full project structure and included the task PDF in `app/src/main/assets/`.
-
-Copied uploaded task PDF into project at app/src/main/assets/Android_Intern_Task.pdf
-Original path: /mnt/data/Android Intern - Humanness by Josh Talks (1) (1).pdf
+# JoshTalksApp
+Generated project for Josh Talks assignment.
 
 
-## Build & Run
-1. Open this directory in Android Studio (preferably Arctic Fox or newer).
-2. Sync Gradle.
-3. Run the `app` module on a device/emulator (minSdk 24+).
-4. Build APK via *Build -> Build Bundle(s) / APK(s) -> Build APK(s).*
-
+## GitHub Actions
+A workflow has been added at `.github/workflows/android-build.yml`. When you push this repo to GitHub (branch `main`), GitHub Actions will build the debug APK and make it available as an artifact named `app-debug-apk`.
